@@ -1,0 +1,57 @@
+main .leraar1{
+  width: 200px ;
+  height: 250px ;
+  background-color: lightgray ;
+  margin: 25px 50px;
+  float: left;
+  margin-left: 130px ;
+}
+
+main .leraar2{
+  width: 200px ;
+  height: 250px ;
+  background-color: lightgray ;
+  margin: 25px 50px;
+  float: left;
+  margin-top: ;
+}
+
+main .leraar3{
+  width: 200px ;
+  height: 250px ;
+  background-color: lightgray ;
+  margin: 25px 50px;
+  float: left;
+  margin-left: 600px;
+}
+
+.text{
+  font-size: 30px;
+  padding-top: ;
+}
+
+.center{
+  text-align: center;
+}
+
+.foto-leraar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: ;
+}
+
+.foto-leraarhenk{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+}
+
+.corner{
+    border-radius: 25px;
+}
+
+.onderschrift{
+  font-size: 20px;
+}

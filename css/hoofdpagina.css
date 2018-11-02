@@ -1,0 +1,32 @@
+
+main .rakkers{
+  width: 35px ;
+  height: 25px ;
+  background-color: lightgray ;
+  margin: 25px 50px;
+  float: left;
+  margin-top: ;
+}
+
+.text{
+  font-size: 20px;
+  padding-top: ;
+}
+
+.center{
+  text-align: center;
+}
+
+.foto-rakkers{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.corner{
+  border-radius: 25px;
+}
+
+.onderschrift{
+  font-size: 15px;
+}

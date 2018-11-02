@@ -1,0 +1,195 @@
+.navigatie ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: white;
+}
+
+.navigatie li {
+  float: left;
+}
+.navigatie li a {
+      display: inline-block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+}
+li a:hover {
+      background-color: #282828;
+}
+
+.navigatie {
+    overflow: hidden;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.navigatie a {
+    float: left;
+    font-size: 16px;
+    color: #282828;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navigatie a:hover, .dropdown:hover .dropbtn {
+    background-color: #282828;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #282828;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #282828;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+h1
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+img
+{
+  width: 90%;
+  height: 250;
+  border-radius: 10px;
+
+
+}
+#keuken .keuken h2
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5%;
+}
+#keuken .keuken p
+{
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+#keuken .keuken iframe
+{
+  width: 500px;
+  height: 250px;
+  border-radius: 3px;
+}
+#keuken .final h3
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5%;
+}
+#keuken .final p
+{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+#keuken .final h5
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+#keuken a:hover
+{
+  background-color: BLACK;
+  color: white;
+
+}
+#keuken a
+{
+  color: BLACK;
+  font-family: 'Roboto Slab', serif;
+}
+#icon
+{
+  width: 100%;
+  height: 300px;
+  background-color:rgb(180, 173, 179) ;
+}
+
+#icon img
+{
+  width: 50px;
+  height: 50px;
+}
+
+#icon img
+{
+  margin-left: 5%;
+  margin-top: 5%;
+  float: left;
+}
+
+#icon img:hover
+{
+  background-color: white;
+}
+
+#icon iframe
+{
+  float: right;
+  width: 450px;
+  height: 200px;
+  margin-right: 10%;
+  margin-top: 2%;
+  border-radius: 25px;
+  border-color: black;
+}
+
+#icon .copyright P
+{
+  margin-top: 2%;
+  float: left;
+  font-size: 10px;
+}
+
+#icon .clear
+{
+  clear: both;
+}

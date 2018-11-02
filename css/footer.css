@@ -1,0 +1,47 @@
+#icon
+{
+  width: 100%;
+  height: 300px;
+  background-color:rgb(180, 173, 179) ;
+}
+
+#icon img
+{
+  width: 50px;
+  height: 50px;
+}
+
+#icon img
+{
+  margin-left: 5%;
+  margin-top: 5%;
+  float: left;
+}
+
+#icon img:hover
+{
+  background-color: white;
+}
+
+#icon iframe
+{
+  float: right;
+  width: 450px;
+  height: 200px;
+  margin-right: 10%;
+  margin-top: 2%;
+  border-radius: 25px;
+  border-color: black;
+}
+
+#icon .copyright P
+{
+  margin-top: 2%;
+  float: left;
+  font-size: 10px;
+}
+
+#icon .clear
+{
+  clear: both;
+}
