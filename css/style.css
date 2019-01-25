@@ -1,0 +1,137 @@
+
+@font-face {
+    font-family: "Calvier";
+    src: url(Calvier.ttf) format("truetype");
+}
+
+html, body {
+  width:100%;
+  height:100%;
+  margin: 0;
+}
+
+nav{
+  position:absolute;
+  width:100%;
+  z-index:10;
+  max-width:100%;
+  color: white;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+}
+nav ul li a{
+  color: #e7e7e7;
+}
+nav ul li a:hover{
+  color: white;
+}
+@media only screen and (max-width: 420px) {
+  nav ul li a {
+      font-size: 20px;
+    }
+}
+@media only screen and (max-width: 330px) {
+  nav ul li a {
+      font-size: 18px;
+    }
+}
+
+.carousel-item {
+  z-index:0;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.overlay img{
+  position:absolute;
+  z-index:2;
+  margin: auto;
+  width: 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+@media only screen and (max-width: 650px) {
+  .overlay img {
+    width: 70%;
+  }
+@media only screen and (max-width: 420px) {
+    .overlay img {
+      width: 90%;
+    }
+
+
+
+
+
+/* PORTFOLIO */
+
+
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    padding: 30px 50px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+    padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.tz-gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Glyphicons Halflings';
+    content: '\e003';
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+
+.tz-gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgb(255, 255, 255);
+    content: '';
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
