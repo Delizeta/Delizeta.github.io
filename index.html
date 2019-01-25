@@ -6,64 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Oswald:300" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
     <title>Mano Hootsmans | Photography</title>
   </head>
-
-  <nav>
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link active" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Gear</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
-  </nav>
-
   <body>
+    <div class="big-container">
 
-    <div class="overlay">
-      <img src="img/Mano_logo.png" alt="Mano Hootsmans">
-    </div>
+<!-- ####################
+        LINKER KANT
+    #################### -->
 
-  <div class="vignette">
-    <div id="carouselExampleIndicators" class="carousel slide" data-interval="5000" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="slide d-block" src="img/slide.png" alt="First slide">
+      <div class="box float-left">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">
+            <img src="img/M-logo.png" width="45" height="45" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Gear</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="Header">
+                <h1>Mano Hootsmans</h1>
+                <p>Ik maak gewoon foto's</p>
+                <center>
+                  <a role="button" href="portfolio.html" class="btn btn-lg center-block">Bekijk mijn foto's</a>
+                  <div class="icons">
+                    DSQ
+                  </div>
+                </center>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img class="d-block" src="img/slide1.png" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block" src="img/slide2.png" alt="Third slide">
+
+      </div>
+
+      <!-- ####################
+              RECHTER KANT
+          #################### -->
+
+      <div class="box float-right">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block " src="img\half-zwaan.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block " src="img\half-mus.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block " src="img\half-pinguin.png" alt="Third slide">
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
