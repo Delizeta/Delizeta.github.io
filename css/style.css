@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'PRIMETIME-Regular';
-    src:url('font/PRIMETIME-Regular.ttf.woff') format('woff'),
-        url('font/PRIMETIME-Regular.ttf.svg#PRIMETIME-Regular') format('svg'),
-        url('font/PRIMETIME-Regular.ttf.eot'),
-        url('font/PRIMETIME-Regular.ttf.eot?#iefix') format('embedded-opentype');
+    src:url('../font/PRIMETIME-Regular.ttf.woff') format('woff'),
+        url('../font/font/PRIMETIME-Regular.ttf.svg#PRIMETIME-Regular') format('svg'),
+        url('../font/font/PRIMETIME-Regular.ttf.eot'),
+        url('../font/font/PRIMETIME-Regular.ttf.eot?#iefix') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'social_media_circledregular';
-    src: url('social_media_circled-webfont.woff2') format('woff2'),
-         url('social_media_circled-webfont.woff') format('woff');
+    src: url('../font/social_media_circled-webfont.woff2') format('woff2'),
+         url('../font/social_media_circled-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -42,7 +42,6 @@
   height: 10px;
   border-radius: 50%;
 }
-
 .navbar-brand{
   width: 35px;
 }
@@ -55,7 +54,7 @@ h1 {
    font-family: 'PRIMETIME-Regular';
    text-align: center;
 }
-p{
+.Header-index p{
    text-align: center;
    color: grey;
    font-size: 20px;
@@ -75,6 +74,26 @@ p{
   font-family: 'social_media_circledregular';
 }
 
-.container{
+.half-vp{
   max-width: 50vw;
+}
+
+
+
+.width-100{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  max-width: 100%;
+}
+
+.txt-center{
+  text-align: center;
+}
+
+.Header h1{
+  margin-top: 45px;
+  margin-bottom: 45px;
+  font-family: 'PRIMETIME-Regular';
+  color: #111111;
+  font-size: 40px;
 }
