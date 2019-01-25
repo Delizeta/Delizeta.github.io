@@ -26,7 +26,7 @@
 	list-style: none;
 	font-weight: bold;
 	color:  #ffffff;
-	padding: 10px 0 23px;
+	padding: 10px 0 0px;
 	margin: 0;
 }
 
@@ -34,6 +34,10 @@
 	display:inline-block;
 	text-decoration: none;
 	color: inherit;
+}
+
+.footer-basic-centered a:hover{
+	color: #a1a1a1
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
