@@ -78,18 +78,14 @@ h1 {
   background-image: linear-gradient(to left, #102452 , #566ad0);
 }
 
-.icons{
-position: absolute;
-bottom: 10px;
-}
 .icons a{
   font-family: 'socialtype';
   font-size: 40px;
   text-decoration: none;
-  color: #111111
+  color: white;
 }
 .icons a:hover{
-  color: #262626
+  color: #a1a1a1
 }
 
 .half-vp{
