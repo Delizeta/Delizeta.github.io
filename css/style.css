@@ -67,7 +67,7 @@ h1 {
    font-size: 20px;
 }
 .btn-lg{
-  transition: background-image 1s;
+  transition: background-image 0.5s;
   background-image: linear-gradient(to right, #181818 , #757575);
   border: none;
   border-radius: 25px;
