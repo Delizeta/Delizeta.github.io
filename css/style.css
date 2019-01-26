@@ -67,7 +67,8 @@ h1 {
    font-size: 20px;
 }
 .btn-lg{
-  background-image: linear-gradient(to right, #102452 , #566ad0);
+  transition: background-image 1s;
+  background-image: linear-gradient(to right, #181818 , #757575);
   border: none;
   border-radius: 25px;
   color: white;
@@ -75,7 +76,7 @@ h1 {
 }
 .btn-lg:hover{
   color: white;
-  background-image: linear-gradient(to left, #102452 , #566ad0);
+  background-image: linear-gradient(to left, #181818 , #757575);
 }
 
 .icons a{
@@ -120,6 +121,11 @@ h1 {
   display: inline-block;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.profile-picture{
+  margin: 0;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 990px){
