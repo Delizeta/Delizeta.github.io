@@ -1,23 +1,23 @@
 
 /* IMPORTING FONTS */
-  @font-face {
-      font-family: 'PRIMETIME-Regular';
-      src:url('../font/PRIMETIME-Regular.ttf.woff') format('woff'),
-          url('../font/font/PRIMETIME-Regular.ttf.svg#PRIMETIME-Regular') format('svg'),
-          url('../font/font/PRIMETIME-Regular.ttf.eot'),
-          url('../font/font/PRIMETIME-Regular.ttf.eot?#iefix') format('embedded-opentype');
-      font-weight: normal;
-      font-style: normal;
-  }
-  @font-face {
-      font-family: 'socialtype';
-      src: url('../font/socialtype.eot');
-      src: url('../font/socialtype.eot?#iefix') format('embedded-opentype'),
-          url('../font/socialtype.woff2') format('woff2'),
-          url('../font/socialtype.woff') format('woff'),
-          url('../font/socialtype.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
+@font-face {
+    font-family: 'PRIMETIME-Regular';
+    src: url('../font/PRIMETIME-Regular.ttf.woff') format('woff'),
+         url('../font/font/PRIMETIME-Regular.ttf.svg#PRIMETIME-Regular') format('svg'),
+         url('../font/font/PRIMETIME-Regular.ttf.eot'),
+         url('../font/font/PRIMETIME-Regular.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'socialtype';
+    src: url('../font/socialtype.eot');
+    src: url('../font/socialtype.eot?#iefix') format('embedded-opentype'),
+         url('../font/socialtype.woff2') format('woff2'),
+         url('../font/socialtype.woff') format('woff'),
+         url('../font/socialtype.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
   }
 
 /* HOME PAGE */
@@ -54,7 +54,7 @@
     /* BUTTON */
     .btn-lg{
       transition: background-image 0.5s;
-      background-image: linear-gradient(to right, #181818 , #757575);
+      background-image: linear-gradient(to right, #181818 , rgb(40, 40, 40));
       border: none;
       border-radius: 25px;
       color: white;
@@ -62,7 +62,7 @@
     }
     .btn-lg:hover{
       color: white;
-      background-image: linear-gradient(to left, #181818 , #757575);
+      background-image: linear-gradient(to left, #181818 , rgb(40, 40, 40));
     }
     .btn{
       display: inline-block;
@@ -143,6 +143,11 @@ h1 {
 .profile-picture{
   margin: 0;
   margin-top: 0;
+}
+
+.form-control:focus {
+  border-color: #343a40;
+  box-shadow: 0 0 0 3px rgba(52, 58, 64, 0.3);
 }
 
 /* MEDIA QUERRIES */
