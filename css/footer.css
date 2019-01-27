@@ -5,9 +5,9 @@
 	width: 100%;
 	text-align: center;
 	font: normal 18px sans-serif;
-
 	padding: 25px;
 	margin-top: 80px;
+	bottom:0;
 }
 
 .footer-basic-centered .footer-company-motto{
@@ -39,6 +39,10 @@
 .footer-basic-centered a:hover{
 	color: #a1a1a1
 }
+.absolute{
+	position:absolute;
+}
+
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
