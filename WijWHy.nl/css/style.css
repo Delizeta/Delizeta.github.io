@@ -1,0 +1,527 @@
+/*
+           _
+    /\    | |
+   /  \   | |  __ _   ___  _ __ ___    ___   ___  _ __
+  / /\ \  | | / _` | / _ \| '_ ` _ \  / _ \ / _ \| '_ \
+ / ____ \ | || (_| ||  __/| | | | | ||  __/|  __/| | | |
+/_/    \_\|_| \__, | \___||_| |_| |_| \___| \___||_| |_|
+              __/ |
+             |___/
+*/
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.banner{
+  padding-top: 0px;
+  padding-bottom: 3px;
+  background-color: #2ecc71;
+  margin-bottom: 100px;
+
+}
+
+/*
+ _   _                _
+| \ | |              | |
+|  \| |  __ _ __   __| |__    __ _  _ __
+| . ` | / _` |\ \ / /| '_ \  / _` || '__|
+| |\  || (_| | \ V / | |_) || (_| || |
+|_| \_| \__,_|  \_/  |_.__/  \__,_||_|
+*/
+
+.nav-background{
+ box-shadow: 0 1px 7px grey;
+ background-color: #fff;
+}
+
+nav{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.navbar{
+  padding-bottom: 0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: black;
+  transition: 0.2s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #2ecc71
+}
+
+/*
+footer yosha
+*/
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+/* Zoekbalk */
+
+.form-control{
+  border-radius: 25rem;
+  border-width: .20rem;
+  text-align: center;
+  border-color: #858585;
+  float: right;
+  transition: 0.25s;
+}
+
+.form-control:focus{
+  border-color: #2ecc71;
+  box-shadow: 0 1px 1px #2ecc71 inset, 0 0 8px #2ecc71;
+  padding-bottom: -3;
+}
+
+.brand-overlay{
+  width: 75px;
+  height: 60px;
+  position: absolute;
+  top: 13px;;
+  bottom: 0;
+  left: 16px;;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.nav-brand-img{
+  transition: .5s ease;
+}
+
+.navbar-brand:hover .brand-overlay {
+  opacity: 1;
+}
+
+.navbar-brand:hover .nav-brand-img {
+  opacity: 0;
+}
+
+
+/* HOMEPAGE */
+.homepage .home-img img{
+  width: 100%;
+  height: 100%;
+}
+.homepage{
+  background-image: url(../img/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.home-row{
+  height: 75vh;
+}
+.home-title .title-h1{
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+}
+.home-title .title-sub{
+  color: grey;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .home-title .title-sub, .home-title .title-h1{
+    text-align: left;
+  }
+  .homepage{
+    background-image: url(../img/bg.svg);
+  }
+}
+.home-img img{
+  width: 100%;
+  height: 100%;
+}
+.home-buttons{
+  text-align: center;
+}
+.home-bestellen{
+  background-color:#44c767;
+  border: none;
+	border-radius:5px;
+	color:#ffffff;
+	padding:7px 10px;
+	text-decoration:none;
+}
+.home-bestellen:hover{
+  background-color:#3fb85f;
+}
+.home-meer-info{
+  background-color:transparent;
+  border: none;
+	border-radius:5px;
+	color:#44c767;
+	padding:7px 10px;
+	text-decoration:none;
+}
+.homepage form{
+  display: inline-block;
+  padding: 10px;
+}
+/*
+ _    _        _     _______
+| |  | |      | |   |__   __|
+| |__| |  ___ | |_     | |  ___   __ _  _ __ ___
+|  __  | / _ \| __|    | | / _ \ / _` || '_ ` _ \
+| |  | ||  __/| |_     | ||  __/| (_| || | | | | |
+|_|  |_| \___| \__|    |_| \___| \__,_||_| |_| |_|
+*/
+
+.img-circle{
+  border-radius: 50%;
+  border: 3px solid #2ecc71;
+}
+
+.team-naam{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #2ecc71;
+}
+
+.team-bio-text{
+  margin-bottom: 100px;
+  }
+
+
+  @media (max-width: 576px) {
+   .team-foto{
+     height: 300px;
+   }
+   .team-naam{
+     text-align: center;
+     margin-top: 30px;
+   }
+  }
+
+  @media (min-width: 576px) {
+   .team-foto{
+     height: 300px;
+   }
+
+   .team-naam{
+     text-align: center;
+     margin-top: 30px;
+   }
+
+
+  }
+  @media (min-width: 992px) {
+    .team-foto{
+      height: 210px;
+    }
+    .team-naam{
+      text-align: left;
+    }
+  }
+  @media (min-width: 1200px) {
+    .team-foto{
+      height: 255px;
+    }
+    .team-naam{
+      text-align: left;
+    }
+  }
+
+ /*
+      _____               _                _
+    / ____|             | |              | |
+   | |      ___   _ __  | |_  __ _   ___ | |_
+   | |     / _ \ | '_ \ | __|/ _` | / __|| __|
+   | |____| (_) || | | || |_| (_| || (__ | |_
+    \_____|\___/ |_| |_| \__|\__,_| \___| \__|
+
+*/
+
+.contact-pf, .content-center{
+   display: block;
+   position: relative;
+   margin: auto;
+ }
+
+ .contact-info{
+   margin-left: 100px;;
+ }
+
+.form{
+  padding-top: 100px;
+}
+
+.form-title{
+  text-align: center;
+  font-weight: bold;
+  color: #2ecc71;
+}
+
+form{
+  text-align: center;
+}
+
+input, textarea{
+  margin: 10px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #2ecc71;
+  border-radius: 33px;
+}
+
+textarea{
+  padding:0 10px 0 10px;
+}
+
+input, textarea::placeholder {
+  text-align: center;
+}
+
+.persoon1{
+  margin-top: 72px;
+}
+
+.persoon{
+  margin-top: 72px;
+}
+
+
+/* __                   _
+  / _|                 | |
+ | |_    ___     ___   | |_    ___   _ __
+ |  _|  / _ \   / _ \  | __|  / _ \ | '__|
+ | |   | (_) | | (_) | | |_  |  __/ | |
+ |_|    \___/   \___/   \__|  \___| |_|
+
+                                           */
+   .footer{
+     font-family: 'Montserrat', sans-serif;
+     background-color: #252525;
+   }
+
+   .logo{
+     height: 60px;
+   }
+
+
+/* _    _          _       _                      _
+ | |  | |        | |     | |                    | |
+ | |__| |   ___  | |_    | |__     ___     ___  | | __
+ |  __  |  / _ \ | __|   | '_ \   / _ \   / _ \ | |/ /
+ | |  | | |  __/ | |_    | |_) | | (_) | |  __/ |   <
+ |_|  |_|  \___|  \__|   |_.__/   \___/   \___| |_|\_\
+
+                                                       */
+
+.hetboek-banner{
+width: 100%;
+height: 100%;
+
+}
+
+.hetboek-banner2{
+width: 100%;
+height: 100%;
+margin-bottom: 30px;
+}
+
+.hetboek-footer{
+  background-color: #e9e8e0;
+  margin-top: 50px;
+}
+
+.kaft{
+  width: 520px;
+  height: 420px;
+}
+
+.red{
+  color: red;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+
+   /*
+    ____              _
+  / __ \            | |
+ | |  | |_   _  ___ | |_ ___  ___
+ | |  | | | | |/ _ \| __/ _ \/ __|
+ | |__| | |_| | (_) | ||  __/\__ \
+  \___\_\\__,_|\___/ \__\___||___/
+
+                                   */
+
+.quotes-title{
+ font-size: 75px;
+ margin-bottom: 100px;
+}
